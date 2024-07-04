@@ -1,0 +1,45 @@
+.profile-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .profile-info {
+    flex-grow: 1;
+  }
+  
+  .profile-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .current-trips, .upcoming-trips {
+    width: 45%;
+  }
+  
+  h3 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
